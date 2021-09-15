@@ -1,83 +1,107 @@
 <!DOCTYPE html>
 
 <html>
+
 <head>
-<title>
-Html Assignment3
-</title>
-<style>
-    table, th, td {
-          border: 1px solid black;
-          border-collapse: collapse;
+    <title>
+        Html Assignment3
+    </title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black;
+            border-collapse: collapse;
         }
-        th, td {
-          padding: 5px;
-          text-align: left;    
+
+        th,
+        td {
+            padding: 5px;
+            text-align: left;
         }
-</style>
+    </style>
 </head>
 
 <body>
-<h1>Deekshitha Bichinaepally</h1>
-<h2> My favourite place is Hyderabad.
-</h2>
-<p>Hyderabad is a place where i was <i>born</i> and <i>brought up</i>.I spent in hyderabad for 20 years. I like this
-    place because it is famous for <i>biryani</i>.
-</p>
-<br>
+    <h1>Deekshitha Bichinaepally</h1>
+    <h2> My favourite place is Hyderabad.
+    </h2>
+    <p>Hyderabad is a place where i was <i>born</i> and <i>brought up</i>.I spent in hyderabad for 20 years. I like this
+        place because it is famous for <i>biryani</i>.
+    </p>
+    <br>
 
-<hr>
+    <hr>
 
-<h2>Travelling</h2>
-<ol>
-    <li>Book a flight to hyderabad from maryville.</li>
-    <li>Enter aiport</li>
+    <h2>Travelling</h2>
     <ol>
-        <li>check-in</li>
-        <li>collect boarding pass</li>
-        <li>Go through security check up</li>
+        <li>Book a flight to hyderabad from maryville.</li>
+        <li>Enter aiport</li>
+        <ol>
+            <li>check-in</li>
+            <li>collect boarding pass</li>
+            <li>Go through security check up</li>
+        </ol>
+        <li>3.Fly from maryville to hyderabad.</li>
+        <li>4.Go back and HAVE FUN</li>
     </ol>
-    <li>3.Fly from maryville to hyderabad.</li>
-    <li>4.Go back and HAVE FUN</li>
-</ol>
-<ul>
-    <li>Go to sports centre</li>
-
-    <li>Buy outdoor games</li>
     <ul>
-        <li>cricket bat</li>
-        <li>shuttle bats</li>
-        <li>table tennis</li>
+        <li>Go to sports centre</li>
+
+        <li>Buy outdoor games</li>
+        <ul>
+            <li>cricket bat</li>
+            <li>shuttle bats</li>
+            <li>table tennis</li>
+        </ul>
+        <li>Go back and have fun</li>
     </ul>
-    <li>Go back and have fun</li>
-</ul>
 
-<a  href="aboutme.html">aboutme</a>
-</body>
+    <a href="aboutme.html">aboutme</a>
 
-<hr>
-<h2>Food items</h2>
-<p>I recommend South Indian food. Following are the 4 south indian food items</p>
+    <hr>
+    <h2>Food items</h2>
+    <p>I recommend South Indian food. Following are the 4 south indian food items</p>
+
 </html>
 <table>
     <tr>
-      <th>Food</th>
-      <th>Location</th>
-      <th>Price</th>
+        <th>Food</th>
+        <th>Location</th>
+        <th>Price</th>
     </tr>
     <tr>
-      <td>Dosa </td>
-      <td>Hyderabad</td>
-      <td>Rs 50</td>
+        <td>Dosa </td>
+        <td>Hyderabad</td>
+        <td>Rs 50</td>
     </tr>
     <tr>
-      <td>ldly</td>
-      <td>Mumbai</td>
-      <td>Rs 70</td>
+        <td>ldly</td>
+        <td>Mumbai</td>
+        <td>Rs 70</td>
     </tr>
-    <tr> 
+    <tr>
         <td> Biryani</td>
         <td>Hyderabad</td>
         <td>Rs 500 </td>
     </tr>
-  </table>
+</table>
+
+<hr>
+<h2>Code display</h2>
+<blockquote cite="https://en.wikipedia.org/wiki/Prime_k-tuple">In number theory, a prime k-tuple is a finite
+    collection of values representing a repeatable pattern of differences between prime numbers. For a k-tuple (a, b,
+    ...), the positions where the k-tuple matches a pattern in the prime numbers are given by the set of integers n such
+    that all of the values (n + a, n + b, ...) are prime.</blockquote>
+<a href="https://en.wikipedia.org/wiki/Prime_k-tuple">link to Prime_k-tuple description</a>
+<pre>int fact_pow (int n, int k) {
+    int res = 0;
+    while (n) {
+        n /= k;
+        res += n;
+    }
+    return res;
+}</pre>
+</body>
+
+</html>
